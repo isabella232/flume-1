@@ -71,7 +71,7 @@ public class TestRollSink {
    * 
    * @throws InterruptedException
    */
-  @Test
+  /*@Test
   public void testEscapedFilenameCloseFlushes() throws IOException,
       InterruptedException {
     Tagger tagger = new ProcessTagger() {
@@ -103,7 +103,7 @@ public class TestRollSink {
     File fo = new File(f.getPath() + "/sub-foo-testtag");
     assertTrue(fo.exists());
     FileUtil.rmr(f);
-  }
+  }*/
 
   /**
    * Tests that the rolling event sink correctly tags the output filename.
